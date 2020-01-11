@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\zhang\desktop\并行计算作业\montecarlo\montecarlo\main.cpp(5): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+c:\users\zhang\desktop\并行计算作业\montecarlo\montecarlo\main.cpp(17): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  MonteCarlo.vcxproj -> C:\Users\zhang\Desktop\并行计算作业\MonteCarlo\Debug\MonteCarlo.exe
