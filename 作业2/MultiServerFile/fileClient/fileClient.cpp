@@ -8,8 +8,8 @@
 using namespace std;
 
 
-char filename2[100] = { "C:\\Users\\zhang\\Desktop\\123.txt" };
-char serverIP[100] = { "222.31.79.201" };
+char filename2[100] = { "C:\\Users\\lenovo\\Desktop\\222.txt" };
+char serverIP[100] = { "127.0.0.1" };
 char serverPORT[100] = { 0 };
 int serverPORT2 = 7777;
 char conNum[100] = { 0 };
@@ -105,7 +105,7 @@ int main(void) {
 		serverPORT2++;
 	}
 	WaitForMultipleObjects(3, aThread, TRUE, INFINITE);
-	printf("文件下载完毕...");
+	printf("文件下载完成");
 	Sleep(5000);
 	for (i = 0; i < 3; i++)
 		CloseHandle(aThread[i]);

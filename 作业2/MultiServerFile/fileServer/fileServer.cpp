@@ -8,7 +8,7 @@
 
 using namespace std;
 
-BYTE filename[100] = { "C:\\Users\\zhang\\Desktop\\123.txt" };
+BYTE filename[100] = { "C:\\Users\\zhang\\Desktop\\111.txt" };
 char serverPORT[100] = { 0 };
 int i;
 int serverNum;

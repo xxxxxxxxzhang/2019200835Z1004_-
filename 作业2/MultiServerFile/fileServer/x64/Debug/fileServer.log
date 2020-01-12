@@ -1,0 +1,17 @@
+﻿生成启动时间为 2020/1/12 10:10:22。
+     1>项目“D:\2019200835Z1004_zhangzhixin\作业2\MultiServerFile\fileServer\fileServer.vcxproj”在节点 2 上(Build 个目标)。
+       项目文件包含 ToolsVersion="15.0" 设置，但此工具集未知或缺失。您可以通过为此工具集安装相应的 .NET Framework 来解决此问题。将项目视为具有 ToolsVersion="4.0" 设置。
+     1>ClCompile:
+         D:\Program Files (x86)\vscode2012\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt fileServer.cpp
+         fileServer.cpp
+     1>fileServer.cpp(35): warning C4244: “=”: 从“std::streamoff”转换到“int”，可能丢失数据
+     1>fileServer.cpp(55): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>fileServer.cpp(60): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+       Link:
+         D:\Program Files (x86)\vscode2012\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\2019200835Z1004_zhangzhixin\作业2\MultiServerFile\x64\Debug\fileServer.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\2019200835Z1004_zhangzhixin\作业2\MultiServerFile\x64\Debug\fileServer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\2019200835Z1004_zhangzhixin\作业2\MultiServerFile\x64\Debug\fileServer.lib" /MACHINE:X64 x64\Debug\fileServer.obj
+         fileServer.vcxproj -> D:\2019200835Z1004_zhangzhixin\作业2\MultiServerFile\x64\Debug\fileServer.exe
+     1>已完成生成项目“D:\2019200835Z1004_zhangzhixin\作业2\MultiServerFile\fileServer\fileServer.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.48
